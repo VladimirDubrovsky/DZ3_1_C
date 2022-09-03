@@ -5,7 +5,7 @@ string number = Console.ReadLine();
 
 void CheckNum(string number)
 {
-    if (number[0]==number[4] || number[1]==number[4])
+    if (number[0]==number[4] && number[1]==number[3])
     {
         Console.WriteLine("Число - палиндром");
     }
